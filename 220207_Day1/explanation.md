@@ -13,4 +13,9 @@
 기능
 ---
 - 동일유저의 반복 신고 -> 1회로 처리
-- k번 이상 신고 -> 신고자에게 메일 전달 
+- k번 이상 신고 -> `answer`에 `id-list` 순으로 count +1 
+
+    
+참고
+---
+- [2022 KAKAO 비공식 해설 영상](https://www.youtube.com/watch?v=caGtdr3_nxs&t=246s)
