@@ -14,3 +14,7 @@ const a = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕�
 let num = prompt('숫자를 입력하세요');
 
 console.log(a[num-1]);
+// console.log(a[num+1]);는 왜 출력값이 undefined 일까?
+// 타입 지정을 해주지 않아서 let num 부분에서 String 값이 넘어옴
+// console.log(a[num-1]); 일 경우에는 묵시적 형변환이 일어나는데
+// console.log(a[num+1]);인 경우 a[11]로 인식해 undefined 값이 출력됨
